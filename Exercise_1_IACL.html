@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercise</title>
+</head>
+<body>
+    <script>
+        const p = document.createElement("p");
+        p.setAttribute("id", "intro");
+        
+        const strong = document.createElement("strong");
+        strong.textContent = "manipulating";
+
+        p.textContent = "Hello there, you are ";
+
+        p.append(strong);
+        p.append(" the DOM!");
+
+        document.body.append(p);
+    </script>
+</body>
+</html>
