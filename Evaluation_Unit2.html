@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation Unit 2</title>
+    <h1>Evaluation Unit 2 - Ian Alberto Castro Lopez 8A</h1>
+</head>
+
+<body>
+    <script>
+        const p = document.createElement("p");
+        const input = document.createElement("input");
+        const div = document.createElement("div");
+        const nav = document.createElement("nav");
+        const ul = document.createElement("ul");
+
+        const li = document.createElement("li");
+        const lw = document.createElement("lw");
+        const ls = document.createElement("ls");
+        const lh = document.createElement("l");
+
+        li.textContent = "Home"
+        ls.textContent = "School"
+        lw.textContent = "Work"
+        lh.textContent = "Hobbies"
+
+        nav.append(ul)
+
+        p.append("Hello, world!")
+        div.append("Leave a comment here")
+        input.appendChild(document.createElement("textarea"));
+
+        ul.append(li)
+        ul.append(ls)
+        ul.append(lw)
+        ul.append(lh)
+
+
+
+        document.body.append(p)
+        document.body.append(div)
+        document.body.append(input)
+        document.body.append(nav)
+
+    </script>
+</body>
+
+</html>
